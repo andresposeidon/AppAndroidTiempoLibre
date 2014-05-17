@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"  ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/actmapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="4"
+            android:text="@string/mapa" />
+
+        <Button
+            android:id="@+id/actorigen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="4"
+            android:text="@string/origen" />
+          <Button
+            android:id="@+id/actactualiza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:drawableStart="@android:drawable/ic_menu_rotate" />
+
+    </LinearLayout>
+
+    <ListView 
+    android:id="@android:id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+</ListView>
+
+</LinearLayout>
